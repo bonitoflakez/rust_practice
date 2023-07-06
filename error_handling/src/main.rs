@@ -1,10 +1,9 @@
-use std::error::Error;
-use std::fs;
-use std::fs::File;
-use std::io;
-use std::io::ErrorKind;
-use std::io::Read;
-use std::net::IpAddr;
+use std::{
+    error::Error,
+    fs::{self, File},
+    io::{self, ErrorKind, Read},
+    net::IpAddr,
+};
 
 #[allow(unused)]
 fn main() {
